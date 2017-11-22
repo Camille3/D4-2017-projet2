@@ -51,3 +51,20 @@ padding-top: 200px;
   font-family: 'Fjalla One', sans-serif;
   font-size:
 }
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteneur
+{
+    display: flex;
+}
+
+.img
+{
+    margin: auto;
+}

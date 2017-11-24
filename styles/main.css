@@ -1,0 +1,102 @@
+body {
+font-family: 'Hind Guntur', sans-serif;
+}
+
+header {
+
+  background-image: url(images/logo-camille.jpg);
+  background-position: top center;
+background-repeat: no-repeat;
+background-size: contain;
+align-items: center;
+justify-content: center;
+-webkit-box-shadow: 0px 14px 65px -15px rgba(186,71,186,0.64);
+-moz-box-shadow: 0px 14px 65px -15px rgba(186,71,186,0.64);
+box-shadow: 0px 14px 65px -15px rgba(186,71,186,0.64);
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 108px;
+
+}
+
+ li a {
+   margin-left:2px;
+ float:left;
+
+}
+
+ul li a {
+ display:block;
+ float:left;
+ width:188px;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ }
+
+ .bio {
+   margin: auto;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 200px;
+}
+
+
+section {
+  padding-top: 100px;
+}
+.section h1 {
+  text-align: center;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size:50px;
+  color: #772666;
+}
+
+.section h2 {
+  text-align: center;
+font-family: 'Cormorant Garamond', serif;
+  font-size:
+  padding : inherit;
+  padding-bottom: 30px;
+  padding-top: 60px;
+
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-color: #772666;
+}
+
+
+img
+{
+    margin: auto;
+    padding-left: 40px;
+padding-right: 40px;
+}
+
+footer {
+padding: 1em;
+    margin-top: 100px;
+
+    background-image: url(images/logo-camille.jpg);
+    background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: 0px -18px 98px -48px rgba(219,48,219,0.63);
+  -moz-box-shadow: 0px -18px 98px -48px rgba(219,48,219,0.63);
+  box-shadow:-9px 12px 119px -16px rgba(219,48,219,0.63);
+color: white;
+}

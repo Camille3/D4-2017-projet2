@@ -1,102 +1,163 @@
-body {
-font-family: 'Hind Guntur', sans-serif;
-}
-
 header {
+  background-color: rgb(0, 0,255);
+  min-height: 80vh;
+  background-image: url(images/moi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
 
-  background-image: url(images/logo-camille.jpg);
-  background-position: top center;
-background-repeat: no-repeat;
-background-size: contain;
-align-items: center;
-justify-content: center;
--webkit-box-shadow: 0px 14px 65px -15px rgba(186,71,186,0.64);
--moz-box-shadow: 0px 14px 65px -15px rgba(186,71,186,0.64);
-box-shadow: 0px 14px 65px -15px rgba(186,71,186,0.64);
+header2 {
 
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 108px;
+.header-content-block {
+  padding: 2em;
+  text-align: center;
+  padding-top: 232px;
+}
+
+.header-content-block h1 {
+  font-size: 3em;
+  font-family: sans-serif;
 
 }
 
- li a {
-   margin-left:2px;
- float:left;
+.a-propos {
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.a-propos h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+padding-top: 180px;
+padding-bottom: 30px;
+font-size: 2em;
+text-align: justify;
 
 }
 
-ul li a {
- display:block;
- float:left;
- width:188px;
- color:black;
- text-decoration:none;
- text-align:center;
- padding:5px;
+.a-propos p {
+
+  columns: 2;
+  column-gap: 60px;
+  padding-bottom: 180px;
+  text-align: justify;
+}
+
+@media (max-width: 480px) {
+.header-content-block h1{
+font-size: 1em;
  }
+ .a-propos p {
+    columns: 1;
+ }
+  }
 
- .bio {
-   margin: auto;
-padding-left: 30px;
-padding-right: 30px;
-padding-top: 200px;
+@media (max-width: 890px) {
+  .a-propos {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+   }
+
+section2 {
+background-color: #e3e1ef;
+border: 2px solid red;
+}
+
+.Thèmes {
+
+  background-color:#e3e1ef;
+
+
+}
+
+   ul {
+     display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   background-attachment: fixed;
+    }
+a {
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+li{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+    img {
+
+    width:  75%;
+    height: 100%;
+    border: 2px solid #f0ddff;
+    }
+
+
+
+.Textes {
+  display: block;
+      padding: 3rem;
 }
 
 
-section {
+#section3 {
+  background-image: url(images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.citation p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5em;
   padding-top: 100px;
-}
-.section h1 {
+  padding-bottom: 100px;
+  padding-left: 360px;
+  padding-right: 360px;
   text-align: center;
-  font-family: 'Hind Guntur', sans-serif;
-  font-size:50px;
-  color: #772666;
+  color: white;
 }
 
-.section h2 {
-  text-align: center;
-font-family: 'Cormorant Garamond', serif;
-  font-size:
-  padding : inherit;
+.projets-personnels h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-top: 180px;
   padding-bottom: 30px;
-  padding-top: 60px;
-
+  font-size: 2em;
+  text-align: justify;
+  padding-left: 57px;
 }
 
-#conteneur
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px;
-    border-color: #772666;
-}
+.Projets-personnels img {
 
-
-img
-{
-    margin: auto;
-    padding-left: 40px;
-padding-right: 40px;
+  width:  20em;
+  height: 100%;
+  border: none;
+  padding-right: 13px;
 }
 
 footer {
-padding: 1em;
-    margin-top: 100px;
+  background-color: : white;
 
-    background-image: url(images/logo-camille.jpg);
-    background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  align-items: center;
-  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  -webkit-box-shadow: 0px -18px 98px -48px rgba(219,48,219,0.63);
-  -moz-box-shadow: 0px -18px 98px -48px rgba(219,48,219,0.63);
-  box-shadow:-9px 12px 119px -16px rgba(219,48,219,0.63);
-color: white;
+.footer-content-block {
+  text-align: center;
 }

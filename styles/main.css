@@ -263,12 +263,13 @@ font-size: 20px;
 }
 
 footer {
-  background-color: : white;
-
+  background-color:#e3e1ef;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .footer-content-block {
   text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+
 }

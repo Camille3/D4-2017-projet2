@@ -237,6 +237,10 @@ font-size: 20px;
           border: 2px solid #f0ddff;
           }
 
+          #derniere {
+          border: none; 
+          }
+
 
 .projets-personnels h2 {
   font-family: 'Alegreya Sans:700', sans-serif;

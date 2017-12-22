@@ -1,6 +1,6 @@
 header {
   background-color: rgb(0, 0,255);
-  min-height: 80vh;
+  min-height: 40vh;
   background-image: url(images/moi.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -18,12 +18,21 @@ header2 {
 .header-content-block {
   padding: 2em;
   text-align: center;
-  padding-top: 232px;
+  padding-top: 150px;
 }
 
 .header-content-block h1 {
+  padding-top: 4em;
   font-size: 3em;
-  font-family: sans-serif;
+  color: white;
+  font-family: 'Alegreya Sans:700', sans-serif;
+
+}
+.header-content-block p {
+color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.5em;
+  padding-top: 1em;
 
 }
 
@@ -33,7 +42,7 @@ header2 {
 }
 
 .a-propos h2 {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Alegreya Sans:700', sans-serif;
 padding-top: 180px;
 padding-bottom: 30px;
 font-size: 2em;
@@ -47,11 +56,13 @@ text-align: justify;
   column-gap: 60px;
   padding-bottom: 180px;
   text-align: justify;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
 }
 
 @media (max-width: 480px) {
 .header-content-block h1{
-font-size: 1em;
+font-size:2em;
  }
  .a-propos p {
     columns: 1;
@@ -66,44 +77,88 @@ font-size: 1em;
    }
 
 section2 {
-background-color: #e3e1ef;
-border: 2px solid red;
 }
 
 .Thèmes {
 
   background-color:#e3e1ef;
-
-
-}
-
-   ul {
-     display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   padding-top: 80px;
-   padding-bottom: 80px;
-   background-attachment: fixed;
-    }
-a {
   display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
-
-li{
-  display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px
-}
-    img {
 
-    width:  75%;
-    height: 100%;
-    border: 2px solid #f0ddff;
+
+}
+
+.Thèmes article {
+  width: 27%;
+    padding: 2.74em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.Thèmes img {
+
+  width:  75%;
+  height: 100%;
+  border: 2px solid #f0ddff;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  }
+
+  .Thèmes h1 {
+    font-family: 'Alegreya Sans:700', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  }
+
+  .Thèmes p {
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 20px;
+  padding-left: 48px;
+  padding-right: 31px;
+  }
+
+  @media (max-width: 800px) {
+  .Thèmes article{
+    float: left;
+      width: 27%;
+      padding: 0.74em;
+      display: block;
+      flex-wrap: wrap;
+   }
+   .Thèmes p{
+   padding-left: 15px;
+   padding-right: : 0px;
+
+   }
+   .Thèmes h1{
+   text-align: center;
+   }
+   }
+
+   @media (max-width: 550px) {
+   .Thèmes article{
+     height: 100%;
+    width: 70%;
+    float: left;
+    padding: auto;
     }
+    .Thèmes p{
+    display: none;
+
+    }
+    .Thèmes h1{
+    text-align: center;
+    font-size: 20px;
+    }
+    }
+
+
+
 
 
 
@@ -114,7 +169,7 @@ li{
 
 
 #section3 {
-  background-image: url(images/bg2.jpg);
+  background-image: url(images/fond-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -123,25 +178,81 @@ li{
   background-attachment: fixed;
 }
 
+
 .citation p {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Alegreya Sans:700', sans-serif;
   font-size: 1.5em;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 360px;
-  padding-right: 360px;
+  padding-left: 200px;
+  padding-right: 200px;
   text-align: center;
   color: white;
 }
 
+
+@media (max-width: 890px) {
+  .citation p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+   }
+
+   @media (max-width: 500px) {
+     .citation p {
+       padding-left: 30px;
+       padding-right: 30px;
+     }
+      }
+
+      #section4 {
+
+      }
+
+         ul {
+           display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         padding-top: 80px;
+         padding-bottom: 80px;
+         background-attachment: fixed;
+          }
+      a {
+        display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      }
+
+      li{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px
+      }
+          img {
+
+          width:  75%;
+          height: 100%;
+          border: 2px solid #f0ddff;
+          }
+
+
 .projets-personnels h2 {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Alegreya Sans:700', sans-serif;
   padding-top: 180px;
   padding-bottom: 30px;
   font-size: 2em;
   text-align: justify;
   padding-left: 57px;
 }
+@media (max-width: 456px) {
+  .projets-personnels h2 {
+    padding-left: 10px;
+    text-align: center;
+
+  }
+   }
 
 .Projets-personnels img {
 
